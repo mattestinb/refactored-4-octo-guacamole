@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+<div id="body">
+    <div class="controls">
+        <div id="timer-div">
+            <h3 id="timer">30 Seconds Remain</h3>
+        </div>
+
+
+
+        <main id="questionsBox">
+            <div id="text-area">
+                <h2 id="answerStatus"></h2>
+                <h1>QUIZ WIZ</h1>
+                <h2>Test your JavaScript knowledge</h2>
+                <h3>Press START to begin</h3>
+                <button id='start' onclick="startQuiz()">START</button>
+            </div>
+            <div class="question-holder" id="question-holder">
+                <h1 id="question-title"></h1>
+                <div id="question-text-holder" class="button-holder">
+                    <h3 id="question-text"></h3>
+                    <button id="btn1">a. 1</button>
+                    <button id="btn2">b. 2</button>
+                    <button id="btn3">c. 3</button>
+                    <button id="btn4">d. 4</button>
+                </div>
+            </div>
+
+            <div id="scoring-screen" style="display:none">
+                <p id="finalscore">High Score</p>
+                <input id="initials" type="text" placeholder="Enter Initials">
+                <button type="button" id="submit">Submit</button>
+                <p id="timerfinished">TIME UP!</p>
+
+            </div>
+            <div id="highscore-screen" style="display:none">
+                <ul id="highscore-list"></ul>
+                <button type="button" id="clear" onclick="clearHighScores()">Clear High Scores</button>
+                <button type="button" id="restart" onclick="resetQuiz()">Restart Quiz</button>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>

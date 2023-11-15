@@ -1,0 +1,40 @@
+/* *{
+    background-image:url(images/htmljs.jpg);
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+button{
+    background-color: rgb(16, 105, 88);
+}
+#answer-buttons{
+color: black;
+
+} */
+#text-area {
+    align-items: center;
+    text-align: center;
+    color: #1fdcdc;
+    padding: 0%;
+    background-color: #2f5f4f;
+}
+body {
+    background-image:url(../marvin-meyer-SYTO3xs06fU-unsplash.jpg)
+}
+#question-holder {
+    background-color: #2f5f4f;
+    color: white;
+    text-align: center;
+};
+
+#buttons{
+    padding: 10px;
+    margin: 5px;
+    font-size: large;
+
+}
+#userScore{
+    font-size: 20 px;
+}
